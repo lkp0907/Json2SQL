@@ -17,6 +17,7 @@
             return @"varchar(255)";
         }
     }else{
+        
         if(sizeof(type)>255){
             return @"text";
         }else{
