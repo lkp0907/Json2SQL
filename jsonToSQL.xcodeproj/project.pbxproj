@@ -8,17 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		83E664A81A57C0510001A25E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E664A71A57C0510001A25E /* main.m */; };
+		83E664B71A57CB1F0001A25E /* testAPI.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83E664AE1A57C0780001A25E /* testAPI.json */; };
+		83E664BA1A57CD230001A25E /* JsonToSQLEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E664B91A57CD230001A25E /* JsonToSQLEngine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		83E664A21A57C0510001A25E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				83E664B71A57CB1F0001A25E /* testAPI.json in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -26,6 +29,8 @@
 		83E664A41A57C0510001A25E /* jsonToSQL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jsonToSQL; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E664A71A57C0510001A25E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		83E664AE1A57C0780001A25E /* testAPI.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testAPI.json; sourceTree = "<group>"; };
+		83E664B81A57CD230001A25E /* JsonToSQLEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonToSQLEngine.h; sourceTree = "<group>"; };
+		83E664B91A57CD230001A25E /* JsonToSQLEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonToSQLEngine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +63,10 @@
 		83E664A61A57C0510001A25E /* jsonToSQL */ = {
 			isa = PBXGroup;
 			children = (
-				83E664A71A57C0510001A25E /* main.m */,
 				83E664AE1A57C0780001A25E /* testAPI.json */,
+				83E664A71A57C0510001A25E /* main.m */,
+				83E664B81A57CD230001A25E /* JsonToSQLEngine.h */,
+				83E664B91A57CD230001A25E /* JsonToSQLEngine.m */,
 			);
 			path = jsonToSQL;
 			sourceTree = "<group>";
@@ -121,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83E664A81A57C0510001A25E /* main.m in Sources */,
+				83E664BA1A57CD230001A25E /* JsonToSQLEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +242,7 @@
 				83E664AD1A57C0510001A25E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
